@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-ssr/
+coverage/
+.vite/
+.DS_Store
+.env
+.env.local
+*.log
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+pnpm-lock.yaml.backup
