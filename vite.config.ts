@@ -4,7 +4,7 @@ import path from 'node:path';
 
 export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: command === 'build' ? '/Interactive-prompt-designer/' : '/',
+  base: command === 'build' ? './' : '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
