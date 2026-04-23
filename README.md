@@ -28,7 +28,6 @@ CI currently uses Node 20 and `pnpm`.
 ## Setup
 
 ```bash
-cd /Users/shivomdhamija/Documents/GitHub/interactive-prompt-designer
 cp .env.example .env.local
 ```
 
@@ -111,12 +110,3 @@ The current provider wiring is centered on:
 - Session logs are stored in browser IndexedDB.
 - Requests are sent from the browser directly to the configured model endpoint.
 
-## Deployment
-
-GitHub Actions builds and deploys the app to GitHub Pages on pushes to `main`. The workflow also runs:
-
-- `pnpm typecheck`
-- `pnpm test`
-- `pnpm build`
-
-See [deploy.yml](/Users/shivomdhamija/Documents/GitHub/interactive-prompt-designer/.github/workflows/deploy.yml).
